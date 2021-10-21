@@ -1,0 +1,197 @@
+*{
+    margin: 0%;
+    padding: 0%;
+
+}
+body{
+    overflow: hidden;
+    background-color: hsl(226, 43%, 10%);
+   
+}
+.main-box{
+    display: flex;
+   
+}
+
+.container{
+    color: white;
+    margin: 2pc;
+    width: 300px;
+    height: 70vh;
+    border-radius: 2pc;
+    background-color: hsl(235, 46%, 20%) 
+}
+.container>p{
+    margin: 1pc;
+}
+.name{
+    width: 300px;
+    height: 40vh;
+    background-color: hsl(246, 80%, 60%);
+    border-bottom-left-radius:2pc ;
+    border-bottom-right-radius:2pc ;
+    border-top-left-radius:2pc ;
+    border-top-right-radius:2pc ;
+    position: relative;
+    right: 10px;
+}
+.name >img{
+    width: 80px;
+}
+.name >h4,h1{
+    margin: 1pc;
+}
+
+.todo{
+    width: 150px;
+    height: 87px;
+    margin-top: 35px;
+    border-top-left-radius:1pc ;
+    border-top-right-radius:1pc ;
+    background-color: hsl(15, 100%, 70%);
+    z-index: -1;
+}
+.info{
+    width: 150px;
+    height: 142px;
+    color: white;
+    border-top-left-radius: 1pc;
+    border-top-right-radius:1pc ;
+    border-bottom-left-radius:1pc ;
+    border-bottom-right-radius: 1pc;
+    background-color: hsl(235, 46%, 20%) ;
+    position: relative;
+    bottom: 50px;
+}
+
+.info >p,h3,h5{
+    margin: 1pc;
+    padding: 2px;
+}
+.play{
+    width: 150px;
+    height: 87px;
+    margin: 35px 10px 10px 10px;
+    border-top-left-radius:1pc ;
+    border-top-right-radius:1pc ;
+    background-color: hsl(195, 74%, 62%);
+    z-index: -1;
+}
+.info1{
+    width: 150px;
+    height: 142px;
+    color: white;
+    border-top-left-radius: 1pc;
+    border-top-right-radius:1pc ;
+    border-bottom-left-radius:1pc ;
+    border-bottom-right-radius: 1pc;
+    background-color: hsl(235, 46%, 20%) ;
+    position: relative;
+    bottom: 50px;
+}
+.info1 >p,h3,h5{
+    margin: 1pc;
+    padding: 2px;
+}
+.study{
+    width: 150px;
+    height: 87px;
+    margin-top: 35px;
+    border-top-left-radius:1pc ;
+    border-top-right-radius:1pc ;
+    background-color: hsl(348, 100%, 68%);
+    z-index: -1;
+}
+.info2{
+    width: 150px;
+    height: 142px;
+    color: white;
+    border-top-left-radius: 1pc;
+    border-top-right-radius:1pc ;
+    border-bottom-left-radius:1pc ;
+    border-bottom-right-radius: 1pc;
+    background-color: hsl(235, 46%, 20%) ;
+    position: relative;
+    bottom: 50px;
+}
+.info2>p,h3,h5{
+    margin: 1pc;
+    padding: 2px;
+}
+.exercise{
+    width: 150px;
+    height: 87px;
+    margin-top: 35px;
+    border-top-left-radius:1pc ;
+    border-top-right-radius:1pc ;
+    background-color: hsl(145, 58%, 55%);
+    z-index: -1;
+}
+.info3{
+    width: 150px;
+    height: 130px;
+    color: white;
+    border-top-left-radius: 1pc;
+    border-top-right-radius:1pc ;
+    border-bottom-left-radius:1pc ;
+    border-bottom-right-radius: 1pc;
+    background-color: hsl(235, 46%, 20%) ;
+    position: relative;
+    bottom: 35px;  
+}
+.info3>p,h3,h5{
+    margin: 1pc;
+    padding: 2px;
+}
+.social{
+    width: 150px;
+    height: 87px;
+    margin-top: 35px;
+    border-top-left-radius:1pc ;
+    border-top-right-radius:1pc ;
+    background-color:  hsl(264, 64%, 52%);
+    z-index: -1;
+}
+.info4{
+    width: 150px;
+    height: 130px;
+    color: white;
+    border-top-left-radius: 1pc;
+    border-top-right-radius:1pc ;
+    border-bottom-left-radius:1pc ;
+    border-bottom-right-radius: 1pc;
+    background-color: hsl(235, 46%, 20%) ;
+    position: relative;
+    bottom: 85px;  
+}
+.info4>p,h3,h5{
+    margin: 1pc;
+    padding: 2px;
+}
+
+.self-care{
+    width: 150px;
+    height: 87px;
+    margin-top: 35px;
+    border-top-left-radius:1pc ;
+    border-top-right-radius:1pc ;
+    background-color:  hsl(43, 84%, 65%);
+    z-index: -1;
+}
+.info5{
+    width: 150px;
+    height: 130px;
+    color: white;
+    border-top-left-radius: 1pc;
+    border-top-right-radius:1pc ;
+    border-bottom-left-radius:1pc ;
+    border-bottom-right-radius: 1pc;
+    background-color: hsl(235, 46%, 20%) ;
+    position: relative;
+    bottom: 50px; 
+}
+
+.info5>p,h3,h5{
+    margin: 1pc;
+    padding: 2px;
+}
