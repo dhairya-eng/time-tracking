@@ -23,6 +23,7 @@ body{
 }
 .container>p{
     margin: 1pc;
+    cursor:pointer;
 }
 .name{
     width: 300px;
